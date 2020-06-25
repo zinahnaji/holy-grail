@@ -1,1 +1,122 @@
+*  {
+    margin: 2px;
+}
+
+body {
+    background-color:palevioletred;
+    color:black;
+    padding:35px;
+
+}
+ .flex-header {
+     background-color: palevioletred:
+     font-style: italic;
+     text-shadow: 0 2px black;
+     padding-top: 3rem;
+     padding-bottom: 3rem;
+    display: flex;
+}
+.flex-header >h1 {
+    'Pirata One',: cursive;
+    font-size :20px;
+    color: black;
+   
+}
+
+.flex-main{
+    display: flex;
+    flex: 1;
+
+}
+
+.flex-nav{
+    padding-top: 3rem;
+    display: flex;
+    box-shadow: 0 0 20px 12px black;
+}
+ .flex-nav> ul{
+     color: black;
+    list-style-type: none;
+    line-height:3rem;
+    
+}
+ .flex-nav a{
+     font-weight: 1000px;
+     font-style: italic;
+     color: black;
+    display: list-item;
+    text-align: -webkit-match-parten;
+}
+.flex-article{
+    padding-top: 3rem;
+    display: flex;
+    flex: 3 3 ;
+}
+  .flex-article p{
+   font-family: initial;
+   font-style: italic;
+  color:black;
+  font-size: 20px;
+  line-height:2 rem;
+  text-shadow: 0 0 2px black;
+  }
+  
+
+}
+.flex-aside{
+    background-color: palevioletred;
+    padding-top: 3rem;
+    display: flex;
+}
+img{
+    widows: 50px;px;
+}
+.flex-footer{
+    background-color: palevioletred;
+    padding-top: 3px;
+    padding-bottom: 3rem;
+display: flex;
+}
+
+footer> p{
+    font-family: cursive;
+    color: black;
+    border: 5px;
+     margin-left:10px;
+    text-shadow: 0 0 2px black:
+    
+}
+@media {url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Quintessential&display=swap');
+    
+main {
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #BF2C2C;
+  font-family: 'Pirata One', cursive;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+a:hover {
+    color:black;
+    background-color:palevioletred;
+  }
+
+ul {
+  list-style-type: none;
+  line-height: 2rem;
+  padding-left: 0px;
+}
+footer {
+  margin-top: 40px;
+  border-top: 3px solid
+}
+footer>p {
+  font-family: 'Pirata One', cursive;
+  color: #0D0D0D;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
 
